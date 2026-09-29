@@ -1,21 +1,22 @@
-# Antireflection Coatings and Selective Absorbers for OWPT–TPV
+# Spectrally Selective Emitters for TPV-Based Optical Wireless Power Transfer
 
-TMM Studio is a Windows GUI for exploring coating–substrate structures
-for laser-powered thermophotovoltaic systems.
+TMM Studio is a Windows GUI for comparing coating–substrate thermal
+emitters coupled to a photovoltaic cell.
 
-Select an operating temperature, laser wavelength, substrate, and coating.
-The tool calculates absorption spectra and ranks candidate structures
-using a laser-absorption target and estimated thermal radiation loss.
+Choose an emitter temperature and a Si, GaSb, or InGaAsSb cell.
+The tool searches coating thicknesses and displays the structures
+that maximize electrical output power and band-limited efficiency.
+It plots their absorption spectra and modeled I–V curves.
 
-![Absorber GUI](absorber-dashboard.png)
+![Emitter GUI](emitter-dashboard.png)
 
 ## Run the application
 
-Open **Releases** and download `TMM_Absorber_Studio.exe`.
+Open **Releases** and download `TMM_Emitter_Studio.exe`.
 Run it on Windows; Python is not required.
 
 ## Model scope
 
-Results use a normal-incidence optical model and temperature-independent
-input optical constants. Chemical compatibility and expansion mismatch,
-when displayed, are approximate image-derived screening indicators.
+The calculations use an idealized PV cell and treat normal-incidence
+absorptivity as emissivity. Reported efficiency is band-limited model
+efficiency, not measured end-to-end system efficiency.
