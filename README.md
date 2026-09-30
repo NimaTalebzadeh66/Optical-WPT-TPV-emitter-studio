@@ -1,4 +1,4 @@
-# Spectrally Selective Emitters for TPV-Based Optical Wireless Power Transfer
+# Spectrally Selective Emitters for Optical Wireless Power Transfer-Thermophotovoltaic 
 
 TMM Studio is a Windows GUI for comparing coating–substrate thermal
 emitters coupled to a photovoltaic cell.
